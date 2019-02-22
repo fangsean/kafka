@@ -1094,7 +1094,7 @@ project(':jmh-benchmarks') {
     compile project(':clients')
     compile project(':streams')
     compile libs.jmhCore
-    annotationProcessor libs.jmhGeneratorAnnProcess
+    //annotationProcessor libs.jmhGeneratorAnnProcess
     compile libs.jmhCoreBenchmarks
   }
 
